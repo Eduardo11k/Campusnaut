@@ -1,5 +1,3 @@
-'use server';
-
 import { z } from 'zod';
 import { getEventById } from './events';
 import { eventDurationMinutes, parseEventZonedDate } from './time';
@@ -16,7 +14,7 @@ const LLM_BASE_URL = process.env.LLM_BASE_URL ?? 'https://api.featherless.ai/v1'
 const LLM_MODEL = process.env.LLM_MODEL ?? 'Qwen/Qwen3-32B';
 
 export function isLLMAvailable() {
-  return Boolean(LLM_API_KEY && LLM_API_KEY.startsWith('sk-'));
+  return Boolean(LLM_API_KEY && LLM_API_KEY.length > 0);
 }
 
 export function getModelName() {
