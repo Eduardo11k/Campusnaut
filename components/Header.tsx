@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const links = [
@@ -14,8 +15,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 hidden border-b-2 border-ink bg-cream-100 md:block">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="font-display text-2xl font-bold tracking-tight no-underline">
-          CampusPulse
+        <Link href="/" className="flex items-center gap-2 font-display text-2xl font-bold tracking-tight no-underline">
+          <Image src="/logo.png" alt="" width={36} height={36} className="rounded-md" priority />
+          <span>CampusPulse</span>
         </Link>
         <nav aria-label="Principal">
           <ul className="flex items-center gap-8">

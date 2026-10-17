@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   title: 'CampusPulse — Eventos universitários escolhidos para ti',
   description:
     'Agente de recomendação de eventos de campus. Diz os teus interesses e horários livres e descobre o que não podes perder.',
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
