@@ -59,9 +59,9 @@ export default function Home() {
             </p>
             <p className="mt-4 text-sm font-semibold text-ink-muted">— Estudante de Engenharia</p>
           </div>
-          <div className="poster-card absolute -bottom-6 -left-4 hidden w-40 -rotate-3 rounded-xl bg-tomato p-4 text-white sm:block">
-            <p className="font-display text-2xl font-bold">40</p>
-            <p className="text-sm">eventos esta semana</p>
+          <div className="absolute -bottom-4 -left-4 z-10 hidden w-44 -rotate-3 rounded-xl border-2 border-ink bg-tomato p-4 shadow-poster sm:block">
+            <p className="font-display text-3xl font-bold text-white">40</p>
+            <p className="text-sm font-semibold text-white">eventos esta semana</p>
           </div>
         </div>
       </section>
