@@ -11,6 +11,7 @@ interface RecommendationResultsProps {
   request: RecommendRequest;
   onRefine: (refine: string) => void;
   onReset: () => void;
+  onRetry?: () => void;
 }
 
 function ModeBadge({ mode, model }: { mode: 'llm' | 'demo'; model?: string }) {
@@ -18,14 +19,14 @@ function ModeBadge({ mode, model }: { mode: 'llm' | 'demo'; model?: string }) {
     return (
       <span className="inline-flex items-center gap-2 rounded-full border border-lagoon-dark bg-lagoon/10 px-3 py-1 text-xs font-semibold text-lagoon-dark">
         <span className="h-2 w-2 rounded-full bg-lagoon" />
-        {model || 'modelo'}
+        {model || 'Assistente IA'}
       </span>
     );
   }
   return (
     <span className="inline-flex items-center gap-2 rounded-full border border-tomato-dark bg-tomato/10 px-3 py-1 text-xs font-semibold text-tomato-dark">
       <span className="h-2 w-2 rounded-full bg-tomato" />
-      Modo demo
+      Recomendação local
     </span>
   );
 }
@@ -34,6 +35,7 @@ export default function RecommendationResults({
   response,
   onRefine,
   onReset,
+  onRetry,
 }: RecommendationResultsProps) {
   const [refine, setRefine] = useState('');
   const { picks, not_recommended, explanation } = response;
@@ -106,9 +108,21 @@ export default function RecommendationResults({
       </div>
 
       {response.warning && (
-        <p className="rounded-md border border-tomato bg-tomato/10 px-4 py-2 text-sm text-tomato-dark">
-          {response.warning}
-        </p>
+        <div className="flex flex-col gap-3 rounded-lg border-2 border-tomato bg-tomato/10 p-4 text-sm text-tomato-dark sm:flex-row sm:items-center sm:justify-between">
+          <p className="leading-relaxed">
+            <span className="font-semibold">Assistente temporariamente indisponível.</span>{' '}
+            {response.warning}
+          </p>
+          {onRetry && (
+            <button
+              type="button"
+              onClick={onRetry}
+              className="shrink-0 rounded-md border-2 border-tomato-dark bg-cream-100 px-4 py-2 text-xs font-bold transition-colors hover:bg-tomato hover:text-white"
+            >
+              Tentar com IA
+            </button>
+          )}
+        </div>
       )}
 
       <section aria-label="Recomendações">

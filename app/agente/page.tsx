@@ -103,6 +103,10 @@ export default function AgentPage() {
             request={buildRequest()}
             onRefine={handleRefine}
             onReset={handleReset}
+            onRetry={() => {
+              setStatus('loading');
+              submit();
+            }}
           />
         </div>
       )}

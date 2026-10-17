@@ -69,10 +69,10 @@ export async function POST(req: Request) {
       console.warn('CampusPulse: LLM falhou, a usar demo.', message);
       result = runDemoScoring(filtered, body);
       mode = 'demo';
-      warning = `O modelo não respondeu como esperado. A mostrar recomendações locais.`;
+      warning = 'O assistente inteligente demorou a responder. Estas são recomendações automáticas baseadas no teu perfil — podes tentar novamente.';
     }
   } else {
-    warning = 'Modo demo: nenhuma chave de API configurada.';
+    warning = 'O assistente inteligente não está ativo. Mostramos recomendações automáticas enquanto a configuração não é concluída.';
   }
 
   return NextResponse.json({
