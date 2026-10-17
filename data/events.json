@@ -1,0 +1,584 @@
+[
+  {
+    "id": "evt-001",
+    "title": "Workshop de IA Generativa para Estudantes",
+    "description": "Descobre como ferramentas de inteligência artificial podem acelerar trabalhos académicos e projetos pessoais. Vamos experimentar prompts práticos e debater ética na IA. Haverá acesso a contas educacionais durante a sessão.",
+    "date": "2026-10-19",
+    "start": "09:00",
+    "end": "11:00",
+    "location": "LABS A — Ed. Norte",
+    "tags": [
+      "IA"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-002",
+    "title": "Pitch Bootcamp: Da Ideia ao Primeiro Cliente",
+    "description": "Aprende a construir um pitch de 3 minutos e validar uma ideia com clientes reais. Três empreendedores convidados partilham erros comuns a evitar. Inclui simulação de pitch frente a investidores.",
+    "date": "2026-10-19",
+    "start": "10:00",
+    "end": "12:00",
+    "location": "Sala de Conferências Beta",
+    "tags": [
+      "startups",
+      "jogos"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-003",
+    "title": "Treino de Trail Running pela Colina",
+    "description": "Uma saída de corrida em grupo pelos caminhos da colina do campus com paragens técnicas. Adequado a iniciantes e a quem já corre regularmente. Leva água e sapatilhas confortáveis.",
+    "date": "2026-10-19",
+    "start": "12:00",
+    "end": "13:30",
+    "location": "Ginásio Norte",
+    "tags": [
+      "desporto",
+      "música"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-004",
+    "title": "Oficina de Serigrafia em Tecido",
+    "description": "Cria a tua própria tote bag campus com técnicas de estampagem manual. Exploramos composição, cor e repetição de padrões. Leva uma t-shirt ou tecido para customizar.",
+    "date": "2026-10-19",
+    "start": "13:00",
+    "end": "15:00",
+    "location": "Pátio da Reitoria",
+    "tags": [
+      "arte"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-005",
+    "title": "Jam Session ao Vivo no Pátio",
+    "description": "Uma tarde de música aberta a músicos e espectadores. Trás o teu instrumento ou vem ouvir estilos de jazz a pop. O som é fornecido, basta trazer boa energia.",
+    "date": "2026-10-19",
+    "start": "14:30",
+    "end": "16:30",
+    "location": "Sala 204 — Ed. Sul",
+    "tags": [
+      "música",
+      "saúde"
+    ],
+    "price": 20,
+    "link": "#"
+  },
+  {
+    "id": "evt-006",
+    "title": "Como Construir um CV de Tecnologia",
+    "description": "Revisão de currículos com recrutadores da indústria tech. Vamos analisar exemplos reais e apontar pontos fortes e fraquezas. Inclui tempo para revisão individual do teu CV.",
+    "date": "2026-10-19",
+    "start": "15:00",
+    "end": "17:00",
+    "location": "Centro de Inovação",
+    "tags": [
+      "carreira"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-007",
+    "title": "Pitch Bootcamp: Da Ideia ao Primeiro Cliente",
+    "description": "Aprende a construir um pitch de 3 minutos e validar uma ideia com clientes reais. Três empreendedores convidados partilham erros comuns a evitar. Inclui simulação de pitch frente a investidores.",
+    "date": "2026-10-20",
+    "start": "12:00",
+    "end": "13:30",
+    "location": "Café Campus",
+    "tags": [
+      "startups",
+      "arte"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-008",
+    "title": "Treino de Trail Running pela Colina",
+    "description": "Uma saída de corrida em grupo pelos caminhos da colina do campus com paragens técnicas. Adequado a iniciantes e a quem já corre regularmente. Leva água e sapatilhas confortáveis.",
+    "date": "2026-10-20",
+    "start": "13:00",
+    "end": "15:00",
+    "location": "Biblioteca",
+    "tags": [
+      "desporto",
+      "IA"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-009",
+    "title": "Oficina de Serigrafia em Tecido",
+    "description": "Cria a tua própria tote bag campus com técnicas de estampagem manual. Exploramos composição, cor e repetição de padrões. Leva uma t-shirt ou tecido para customizar.",
+    "date": "2026-10-20",
+    "start": "14:30",
+    "end": "16:30",
+    "location": "Parque Exterior",
+    "tags": [
+      "arte"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-010",
+    "title": "Jam Session ao Vivo no Pátio",
+    "description": "Uma tarde de música aberta a músicos e espectadores. Trás o teu instrumento ou vem ouvir estilos de jazz a pop. O som é fornecido, basta trazer boa energia.",
+    "date": "2026-10-20",
+    "start": "15:00",
+    "end": "17:00",
+    "location": "Sala de Reuniões C3",
+    "tags": [
+      "música"
+    ],
+    "price": 15,
+    "link": "#"
+  },
+  {
+    "id": "evt-011",
+    "title": "Como Construir um CV de Tecnologia",
+    "description": "Revisão de currículos com recrutadores da indústria tech. Vamos analisar exemplos reais e apontar pontos fortes e fraquezas. Inclui tempo para revisão individual do teu CV.",
+    "date": "2026-10-20",
+    "start": "16:00",
+    "end": "18:00",
+    "location": "Media Lab",
+    "tags": [
+      "carreira",
+      "startups"
+    ],
+    "price": 20,
+    "link": "#"
+  },
+  {
+    "id": "evt-012",
+    "title": "Campanha de Recolha de Bens Essenciais",
+    "description": "Junta-te à equipa de voluntários para organizar doações destinadas a famílias da comunidade. Não é preciso experiência anterior, só disponibilidade. Há café e sanduíches para todos os participantes.",
+    "date": "2026-10-20",
+    "start": "17:00",
+    "end": "19:00",
+    "location": "Auditório de Música",
+    "tags": [
+      "voluntariado"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-013",
+    "title": "Treino de Trail Running pela Colina",
+    "description": "Uma saída de corrida em grupo pelos caminhos da colina do campus com paragens técnicas. Adequado a iniciantes e a quem já corre regularmente. Leva água e sapatilhas confortáveis.",
+    "date": "2026-10-21",
+    "start": "14:30",
+    "end": "16:30",
+    "location": "Campo Desportivo",
+    "tags": [
+      "desporto",
+      "voluntariado"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-014",
+    "title": "Oficina de Serigrafia em Tecido",
+    "description": "Cria a tua própria tote bag campus com técnicas de estampagem manual. Exploramos composição, cor e repetição de padrões. Leva uma t-shirt ou tecido para customizar.",
+    "date": "2026-10-21",
+    "start": "15:00",
+    "end": "17:00",
+    "location": "Auditório Central",
+    "tags": [
+      "arte"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-015",
+    "title": "Jam Session ao Vivo no Pátio",
+    "description": "Uma tarde de música aberta a músicos e espectadores. Trás o teu instrumento ou vem ouvir estilos de jazz a pop. O som é fornecido, basta trazer boa energia.",
+    "date": "2026-10-21",
+    "start": "16:00",
+    "end": "18:00",
+    "location": "LABS A — Ed. Norte",
+    "tags": [
+      "música",
+      "IA"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-016",
+    "title": "Como Construir um CV de Tecnologia",
+    "description": "Revisão de currículos com recrutadores da indústria tech. Vamos analisar exemplos reais e apontar pontos fortes e fraquezas. Inclui tempo para revisão individual do teu CV.",
+    "date": "2026-10-21",
+    "start": "17:00",
+    "end": "19:00",
+    "location": "Sala de Conferências Beta",
+    "tags": [
+      "carreira",
+      "jogos"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-017",
+    "title": "Campanha de Recolha de Bens Essenciais",
+    "description": "Junta-te à equipa de voluntários para organizar doações destinadas a famílias da comunidade. Não é preciso experiência anterior, só disponibilidade. Há café e sanduíches para todos os participantes.",
+    "date": "2026-10-21",
+    "start": "18:00",
+    "end": "20:00",
+    "location": "Ginásio Norte",
+    "tags": [
+      "voluntariado"
+    ],
+    "price": 20,
+    "link": "#"
+  },
+  {
+    "id": "evt-018",
+    "title": "Torneio de Board Games Estratégicos",
+    "description": "Competição amigável com jogos modernos de estratégia e gestão de recursos. Explicações são dadas antes de cada partida. Vencedores recebem vouchers da livraria do campus.",
+    "date": "2026-10-21",
+    "start": "19:00",
+    "end": "21:00",
+    "location": "Pátio da Reitoria",
+    "tags": [
+      "jogos",
+      "startups"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-019",
+    "title": "Oficina de Serigrafia em Tecido",
+    "description": "Cria a tua própria tote bag campus com técnicas de estampagem manual. Exploramos composição, cor e repetição de padrões. Leva uma t-shirt ou tecido para customizar.",
+    "date": "2026-10-22",
+    "start": "16:00",
+    "end": "18:00",
+    "location": "Sala 204 — Ed. Sul",
+    "tags": [
+      "arte"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-020",
+    "title": "Jam Session ao Vivo no Pátio",
+    "description": "Uma tarde de música aberta a músicos e espectadores. Trás o teu instrumento ou vem ouvir estilos de jazz a pop. O som é fornecido, basta trazer boa energia.",
+    "date": "2026-10-22",
+    "start": "17:00",
+    "end": "19:00",
+    "location": "Centro de Inovação",
+    "tags": [
+      "música",
+      "voluntariado"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-021",
+    "title": "Como Construir um CV de Tecnologia",
+    "description": "Revisão de currículos com recrutadores da indústria tech. Vamos analisar exemplos reais e apontar pontos fortes e fraquezas. Inclui tempo para revisão individual do teu CV.",
+    "date": "2026-10-22",
+    "start": "18:00",
+    "end": "20:00",
+    "location": "Café Campus",
+    "tags": [
+      "carreira",
+      "arte"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-022",
+    "title": "Campanha de Recolha de Bens Essenciais",
+    "description": "Junta-te à equipa de voluntários para organizar doações destinadas a famílias da comunidade. Não é preciso experiência anterior, só disponibilidade. Há café e sanduíches para todos os participantes.",
+    "date": "2026-10-22",
+    "start": "19:00",
+    "end": "21:00",
+    "location": "Biblioteca",
+    "tags": [
+      "voluntariado"
+    ],
+    "price": 15,
+    "link": "#"
+  },
+  {
+    "id": "evt-023",
+    "title": "Torneio de Board Games Estratégicos",
+    "description": "Competição amigável com jogos modernos de estratégia e gestão de recursos. Explicações são dadas antes de cada partida. Vencedores recebem vouchers da livraria do campus.",
+    "date": "2026-10-22",
+    "start": "20:00",
+    "end": "22:00",
+    "location": "Parque Exterior",
+    "tags": [
+      "jogos"
+    ],
+    "price": 20,
+    "link": "#"
+  },
+  {
+    "id": "evt-024",
+    "title": "Yoga na Biblioteca ao Pôr do Sol",
+    "description": "Sessão de yoga suave para relaxar o pescoço e as costas depois de longas horas de estudo. Trás esteira ou toalha. Adequado a todos os níveis, incluindo iniciantes absolutos.",
+    "date": "2026-10-22",
+    "start": "09:00",
+    "end": "11:00",
+    "location": "Sala de Reuniões C3",
+    "tags": [
+      "saúde",
+      "música"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-025",
+    "title": "Jam Session ao Vivo no Pátio",
+    "description": "Uma tarde de música aberta a músicos e espectadores. Trás o teu instrumento ou vem ouvir estilos de jazz a pop. O som é fornecido, basta trazer boa energia.",
+    "date": "2026-10-23",
+    "start": "18:00",
+    "end": "20:00",
+    "location": "Media Lab",
+    "tags": [
+      "música",
+      "desporto"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-026",
+    "title": "Como Construir um CV de Tecnologia",
+    "description": "Revisão de currículos com recrutadores da indústria tech. Vamos analisar exemplos reais e apontar pontos fortes e fraquezas. Inclui tempo para revisão individual do teu CV.",
+    "date": "2026-10-23",
+    "start": "19:00",
+    "end": "21:00",
+    "location": "Auditório de Música",
+    "tags": [
+      "carreira",
+      "programação"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-027",
+    "title": "Campanha de Recolha de Bens Essenciais",
+    "description": "Junta-te à equipa de voluntários para organizar doações destinadas a famílias da comunidade. Não é preciso experiência anterior, só disponibilidade. Há café e sanduíches para todos os participantes.",
+    "date": "2026-10-23",
+    "start": "20:00",
+    "end": "22:00",
+    "location": "Campo Desportivo",
+    "tags": [
+      "voluntariado"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-028",
+    "title": "Torneio de Board Games Estratégicos",
+    "description": "Competição amigável com jogos modernos de estratégia e gestão de recursos. Explicações são dadas antes de cada partida. Vencedores recebem vouchers da livraria do campus.",
+    "date": "2026-10-23",
+    "start": "09:00",
+    "end": "11:00",
+    "location": "Auditório Central",
+    "tags": [
+      "jogos",
+      "arte"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-029",
+    "title": "Yoga na Biblioteca ao Pôr do Sol",
+    "description": "Sessão de yoga suave para relaxar o pescoço e as costas depois de longas horas de estudo. Trás esteira ou toalha. Adequado a todos os níveis, incluindo iniciantes absolutos.",
+    "date": "2026-10-23",
+    "start": "10:00",
+    "end": "12:00",
+    "location": "LABS A — Ed. Norte",
+    "tags": [
+      "saúde",
+      "IA"
+    ],
+    "price": 20,
+    "link": "#"
+  },
+  {
+    "id": "evt-030",
+    "title": "Introdução ao Rust para Programadores",
+    "description": "Primeiros passos na linguagem Rust com exemplos de memória segura e concorrência. Resolvemos problemas práticos em conjunto e discutimos quando Rust faz sentido num projeto.",
+    "date": "2026-10-23",
+    "start": "12:00",
+    "end": "13:30",
+    "location": "Sala de Conferências Beta",
+    "tags": [
+      "programação"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-031",
+    "title": "Como Construir um CV de Tecnologia",
+    "description": "Revisão de currículos com recrutadores da indústria tech. Vamos analisar exemplos reais e apontar pontos fortes e fraquezas. Inclui tempo para revisão individual do teu CV.",
+    "date": "2026-10-24",
+    "start": "20:00",
+    "end": "22:00",
+    "location": "Ginásio Norte",
+    "tags": [
+      "carreira"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-032",
+    "title": "Campanha de Recolha de Bens Essenciais",
+    "description": "Junta-te à equipa de voluntários para organizar doações destinadas a famílias da comunidade. Não é preciso experiência anterior, só disponibilidade. Há café e sanduíches para todos os participantes.",
+    "date": "2026-10-24",
+    "start": "09:00",
+    "end": "11:00",
+    "location": "Pátio da Reitoria",
+    "tags": [
+      "voluntariado"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-033",
+    "title": "Torneio de Board Games Estratégicos",
+    "description": "Competição amigável com jogos modernos de estratégia e gestão de recursos. Explicações são dadas antes de cada partida. Vencedores recebem vouchers da livraria do campus.",
+    "date": "2026-10-24",
+    "start": "10:00",
+    "end": "12:00",
+    "location": "Sala 204 — Ed. Sul",
+    "tags": [
+      "jogos",
+      "programação"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-034",
+    "title": "Yoga na Biblioteca ao Pôr do Sol",
+    "description": "Sessão de yoga suave para relaxar o pescoço e as costas depois de longas horas de estudo. Trás esteira ou toalha. Adequado a todos os níveis, incluindo iniciantes absolutos.",
+    "date": "2026-10-24",
+    "start": "12:00",
+    "end": "13:30",
+    "location": "Centro de Inovação",
+    "tags": [
+      "saúde",
+      "voluntariado"
+    ],
+    "price": 15,
+    "link": "#"
+  },
+  {
+    "id": "evt-035",
+    "title": "Introdução ao Rust para Programadores",
+    "description": "Primeiros passos na linguagem Rust com exemplos de memória segura e concorrência. Resolvemos problemas práticos em conjunto e discutimos quando Rust faz sentido num projeto.",
+    "date": "2026-10-24",
+    "start": "13:00",
+    "end": "15:00",
+    "location": "Café Campus",
+    "tags": [
+      "programação"
+    ],
+    "price": 20,
+    "link": "#"
+  },
+  {
+    "id": "evt-036",
+    "title": "Campanha de Recolha de Bens Essenciais",
+    "description": "Junta-te à equipa de voluntários para organizar doações destinadas a famílias da comunidade. Não é preciso experiência anterior, só disponibilidade. Há café e sanduíches para todos os participantes.",
+    "date": "2026-10-25",
+    "start": "10:00",
+    "end": "12:00",
+    "location": "Biblioteca",
+    "tags": [
+      "voluntariado"
+    ],
+    "price": 0,
+    "link": "#"
+  },
+  {
+    "id": "evt-037",
+    "title": "Torneio de Board Games Estratégicos",
+    "description": "Competição amigável com jogos modernos de estratégia e gestão de recursos. Explicações são dadas antes de cada partida. Vencedores recebem vouchers da livraria do campus.",
+    "date": "2026-10-25",
+    "start": "12:00",
+    "end": "13:30",
+    "location": "Parque Exterior",
+    "tags": [
+      "jogos",
+      "carreira"
+    ],
+    "price": 5,
+    "link": "#"
+  },
+  {
+    "id": "evt-038",
+    "title": "Yoga na Biblioteca ao Pôr do Sol",
+    "description": "Sessão de yoga suave para relaxar o pescoço e as costas depois de longas horas de estudo. Trás esteira ou toalha. Adequado a todos os níveis, incluindo iniciantes absolutos.",
+    "date": "2026-10-25",
+    "start": "13:00",
+    "end": "15:00",
+    "location": "Sala de Reuniões C3",
+    "tags": [
+      "saúde",
+      "desporto"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-039",
+    "title": "Introdução ao Rust para Programadores",
+    "description": "Primeiros passos na linguagem Rust com exemplos de memória segura e concorrência. Resolvemos problemas práticos em conjunto e discutimos quando Rust faz sentido num projeto.",
+    "date": "2026-10-25",
+    "start": "14:30",
+    "end": "16:30",
+    "location": "Media Lab",
+    "tags": [
+      "programação"
+    ],
+    "price": 10,
+    "link": "#"
+  },
+  {
+    "id": "evt-040",
+    "title": "Hackathon de Aplicações de Visão Computacional",
+    "description": "Desafia-te a construir uma app que reconheça objetos ou expressões em 24 horas. Equipas de 3 a 5 elementos com mentores de IA. Haverá prémios para as três melhores soluções.",
+    "date": "2026-10-25",
+    "start": "15:00",
+    "end": "17:00",
+    "location": "Auditório de Música",
+    "tags": [
+      "IA",
+      "voluntariado"
+    ],
+    "price": 0,
+    "link": "#"
+  }
+]

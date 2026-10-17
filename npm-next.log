@@ -1,0 +1,19 @@
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'brace-expansion@5.0.12',
+npm WARN EBADENGINE   required: { node: '20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm ERR! code ENOTEMPTY
+npm ERR! syscall rename
+npm ERR! path /mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/next
+npm ERR! dest /mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/.next-ImTDT9bF
+npm ERR! errno -39
+npm ERR! ENOTEMPTY: directory not empty, rename '/mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/next' -> '/mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/.next-ImTDT9bF'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/tavares01/.npm/_logs/2026-10-17T19_42_58_447Z-debug-0.log

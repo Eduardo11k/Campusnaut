@@ -1,0 +1,28 @@
+npm ERR! code EACCES
+npm ERR! syscall rename
+npm ERR! path /mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/date-fns
+npm ERR! dest /mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/.date-fns-EuupYaDn
+npm WARN deprecated next@14.2.15: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
+npm ERR! process terminated
+npm ERR! signal SIGTERM
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/tavares01/.npm/_logs/2026-10-17T20_12_51_258Z-debug-0.log
+s/meu/Campusnaut/node_modules/date-fns' -> '/mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/.date-fns-EuupYaDn'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'rename',
+npm ERR!   path: '/mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/date-fns',
+npm ERR!   dest: '/mnt/c/Users/Eduardo/Documents/Develop/meus_websites/meu/Campusnaut/node_modules/.date-fns-EuupYaDn'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/tavares01/.npm/_logs/2026-10-17T20_13_30_748Z-debug-0.log
+EXIT=0

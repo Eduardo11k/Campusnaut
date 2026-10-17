@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #fffbf5;
+  --color-ink: #1f1a17;
+  --color-tomato: #ff4d00;
+  --color-lagoon: #0d9488;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+}
+
+@layer base {
+  :focus-visible {
+    outline: 3px solid var(--color-tomato);
+    outline-offset: 2px;
+  }
+
+  a {
+    @apply text-tomato underline-offset-2 hover:underline;
+  }
+
+  input,
+  textarea {
+    @apply bg-cream-50 text-ink placeholder:text-ink-light;
+  }
+}
+
+@layer utilities {
+  .poster-card {
+    @apply border-2 border-ink bg-cream-50 shadow-poster transition-transform transition-shadow duration-200 ease-out;
+  }
+
+  .poster-card:hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-poster-hover;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
