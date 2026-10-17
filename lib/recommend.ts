@@ -47,7 +47,7 @@ function formatEventsForPrompt(events: Event[]) {
   return events.map((e) => ({
     id: e.id,
     title: e.title,
-    description: e.description,
+    description: e.description.slice(0, 160),
     date: e.date,
     start: e.start,
     end: e.end,
@@ -105,7 +105,7 @@ export async function callLLM(
 
   const url = `${LLM_BASE_URL.replace(/\/$/, '')}/chat/completions`;
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 15000);
+  const timeout = setTimeout(() => controller.abort(), 8000);
 
   try {
     const res = await fetch(url, {
@@ -133,7 +133,9 @@ export async function callLLM(
 
     const raw = await res.text();
     const parsed = JSON.parse(raw);
-    const content = parsed?.choices?.[0]?.message?.content ?? '';
+    const message = parsed?.choices?.[0]?.message ?? {};
+    const content =
+      (message.content || message.reasoning)?.toString() ?? '';
     const json = extractFirstJson(content);
     return recommendationResponseSchema.parse(json);
   } finally {

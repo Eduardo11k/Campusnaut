@@ -11,6 +11,9 @@ import {
 import { getEventById } from '@/lib/events';
 import type { Event } from '@/lib/types';
 
+export const dynamic = 'force-dynamic';
+export const maxDuration = 10;
+
 function hasConflicts(pickIds: string[]) {
   const events: Event[] = [];
   for (const id of pickIds) {
