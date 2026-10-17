@@ -89,7 +89,7 @@ export default function AgentPage() {
         <span className="inline-block rounded-full border border-tomato bg-tomato/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-tomato-dark">
           Demo
         </span>
-        <h1 className="mt-4 font-display text-4xl font-bold md:text-5xl">O agente CampusPulse</h1>
+        <h1 className="mt-4 font-display text-4xl font-bold md:text-5xl">O agente Campusnaut</h1>
         <p className="mt-3 text-ink-muted">
           Diz-nos o que gostas e quando estás livre. Vamos sugerir 3 a 5 eventos da semana com uma
           razão personalizada para cada um.

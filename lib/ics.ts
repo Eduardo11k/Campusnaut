@@ -4,7 +4,7 @@ import type { Event } from './types';
 export const CAMPUS_TZ = 'America/Los_Angeles';
 
 function uidFor(event: Event) {
-  return `campuspulse-${event.id}@campuspulse.local`;
+  return `campusnaut-${event.id}@campusnaut.local`;
 }
 
 function escapeIcs(text: string) {
@@ -69,7 +69,7 @@ export function generateIcsEvent(event: Event): string {
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//CampusPulse//PT',
+    'PRODID:-//Campusnaut//PT',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     vtimezoneBlock(),
@@ -83,7 +83,7 @@ export function generateIcsCalendar(events: Event[]): string {
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//CampusPulse//PT',
+    'PRODID:-//Campusnaut//PT',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     vtimezoneBlock(),

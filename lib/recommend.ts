@@ -56,7 +56,7 @@ function formatEventsForPrompt(events: Event[]) {
 }
 
 function buildSystemPrompt(): string {
-  return `És o CampusPulse, um agente de recomendação de eventos universitários em Los Angeles.
+  return `És o Campusnaut, um agente de recomendação de eventos universitários em Los Angeles.
 
 REGRAS OBRIGATÓRIAS:
 1. Recebes a lista de eventos já filtrada pelos dias disponíveis do estudante.
@@ -324,7 +324,7 @@ export function validateAndFilter(
   for (const p of raw.picks) {
     const safe = pickSchema.safeParse(p);
     if (!safe.success || !validEventIds.has(p.event_id)) {
-      console.warn('CampusPulse: pick inválido descartado', p, safe.success ? 'ID desconhecido' : safe.error);
+      console.warn('Campusnaut: pick inválido descartado', p, safe.success ? 'ID desconhecido' : safe.error);
       continue;
     }
     if (seen.has(p.event_id)) continue;
@@ -337,7 +337,7 @@ export function validateAndFilter(
   for (const n of raw.not_recommended) {
     const safe = notRecommendedSchema.safeParse(n);
     if (!safe.success || !validEventIds.has(n.event_id)) {
-      console.warn('CampusPulse: not_recommended inválido descartado', n);
+      console.warn('Campusnaut: not_recommended inválido descartado', n);
       continue;
     }
     if (seenNot.has(n.event_id)) continue;

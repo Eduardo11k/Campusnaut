@@ -1,4 +1,4 @@
-# CampusPulse
+# Campusnaut
 
 Agente de recomendação de eventos de campus para estudantes universitários. 
 Versão demo em Next.js 14 com agenda estática de 40 eventos e um agente que 

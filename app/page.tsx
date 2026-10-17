@@ -9,7 +9,7 @@ const steps = [
   {
     number: '02',
     title: 'O agente pensa',
-    text: 'O CampusPulse cruza o teu perfil com a agenda da semana e explica por que razão cada evento faz sentido.',
+    text: 'O Campusnaut cruza o teu perfil com a agenda da semana e explica por que razão cada evento faz sentido.',
   },
   {
     number: '03',
@@ -30,7 +30,7 @@ export default function Home() {
             Eventos de campus <span className="text-tomato">escolhidos para ti</span>.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-            CampusPulse é um agente de recomendação que encontra os melhores eventos da semana
+            Campusnaut é um agente de recomendação que encontra os melhores eventos da semana
             com base nos teus interesses e horários livres.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">

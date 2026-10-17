@@ -56,7 +56,7 @@ export default function RecommendationResults({
   const exportAll = () => {
     const events = pickEvents.map((x) => x.event);
     if (events.length === 0) return;
-    downloadIcs('campuspulse-recomendacoes.ics', generateIcsCalendar(events));
+    downloadIcs('campusnaut-recomendacoes.ics', generateIcsCalendar(events));
   };
 
   if (pickEvents.length === 0) {

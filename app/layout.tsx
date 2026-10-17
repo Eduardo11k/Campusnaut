@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'CampusPulse — Eventos universitários escolhidos para ti',
+  title: 'Campusnaut — Eventos universitários escolhidos para ti',
   description:
     'Agente de recomendação de eventos de campus. Diz os teus interesses e horários livres e descobre o que não podes perder.',
   icons: {

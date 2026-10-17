@@ -44,7 +44,7 @@ export default function EventCard({ event, reason, fit, showExport = true }: Eve
         {showExport && (
           <button
             type="button"
-            onClick={() => downloadIcs(`campuspulse-${event.id}.ics`, generateIcsEvent(event))}
+            onClick={() => downloadIcs(`campusnaut-${event.id}.ics`, generateIcsEvent(event))}
             className="rounded-md border-2 border-ink bg-cream-100 px-3 py-2 text-sm font-semibold text-ink transition-colors hover:bg-tomato hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-tomato"
             aria-label={`Adicionar ${event.title} ao calendário`}
           >

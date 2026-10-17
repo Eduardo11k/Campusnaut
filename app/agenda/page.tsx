@@ -55,7 +55,7 @@ export default function AgendaPage() {
 
   const exportVisible = () => {
     if (filtered.length === 0) return;
-    downloadIcs('campuspulse-agenda.ics', generateIcsCalendar(filtered));
+    downloadIcs('campusnaut-agenda.ics', generateIcsCalendar(filtered));
   };
 
   return (

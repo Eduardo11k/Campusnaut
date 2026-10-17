@@ -17,7 +17,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2 font-display text-2xl font-bold tracking-tight no-underline">
           <Image src="/logo.png" alt="" width={36} height={36} className="rounded-md" priority />
-          <span>CampusPulse</span>
+          <span>Campusnaut</span>
         </Link>
         <nav aria-label="Principal">
           <ul className="flex items-center gap-8">

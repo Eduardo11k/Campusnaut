@@ -66,7 +66,7 @@ export async function POST(req: Request) {
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      console.warn('CampusPulse: LLM falhou, a usar demo.', message);
+      console.warn('Campusnaut: LLM falhou, a usar demo.', message);
       result = runDemoScoring(filtered, body);
       mode = 'demo';
       warning = 'O assistente inteligente demorou a responder. Estas são recomendações automáticas baseadas no teu perfil — podes tentar novamente.';
